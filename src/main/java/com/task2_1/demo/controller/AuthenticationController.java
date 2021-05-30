@@ -1,15 +1,25 @@
 package com.task2_1.demo.controller;
 
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.task2_1.demo.model.User;
+import com.task2_1.demo.service.UserService;
 
 @Controller
 public class AuthenticationController {
 
+	@Autowired
+	UserService userService;
+	
 	@RequestMapping(value = { "/login" }, method = RequestMethod.GET)
 	public ModelAndView login() {
 		ModelAndView modelAndView = new ModelAndView();
