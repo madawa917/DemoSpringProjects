@@ -1,4 +1,4 @@
-package com.task2_1.demo1.model;
+package com.task2_1.demo.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

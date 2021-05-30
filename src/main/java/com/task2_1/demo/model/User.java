@@ -1,4 +1,4 @@
-package com.task2_1.demo1.model;
+package com.task2_1.demo.model;
 
 import java.util.Set;
 
@@ -12,6 +12,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+
 
 @Entity
 @Table(name = "auth_user")
