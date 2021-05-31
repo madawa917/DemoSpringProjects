@@ -1,4 +1,4 @@
-package com.task21.demo1;
+package com.task.demo;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

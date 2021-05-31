@@ -1,4 +1,4 @@
-package com.task2_1.demo.controller;
+package com.task.demo.controller;
 
 
 import javax.validation.Valid;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.task2_1.demo.model.User;
-import com.task2_1.demo.service.UserService;
+import com.task.demo.model.User;
+import com.task.demo.service.UserService;
 
 @Controller
 public class AuthenticationController {

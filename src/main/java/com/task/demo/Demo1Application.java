@@ -1,4 +1,4 @@
-package com.task21.demo1;
+package com.task.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

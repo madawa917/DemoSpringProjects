@@ -1,4 +1,4 @@
-package com.task21.demo1;
+package com.task.demo;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

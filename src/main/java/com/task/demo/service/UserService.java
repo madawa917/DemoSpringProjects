@@ -1,6 +1,6 @@
-package com.task2_1.demo.service;
+package com.task.demo.service;
 
-import com.task2_1.demo.model.User;
+import com.task.demo.model.User;
 
 public interface UserService {
 

@@ -1,4 +1,4 @@
-package com.task2_1.demo.service;
+package com.task.demo.service;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.task2_1.demo.model.Role;
-import com.task2_1.demo.model.User;
-import com.task2_1.demo.repository.RoleRepository;
-import com.task2_1.demo.repository.UserRepository;
+import com.task.demo.model.Role;
+import com.task.demo.model.User;
+import com.task.demo.repository.RoleRepository;
+import com.task.demo.repository.UserRepository;
 
 @Service
 public class UserServiceImp implements UserService {
